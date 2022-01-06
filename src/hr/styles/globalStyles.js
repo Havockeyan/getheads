@@ -23,7 +23,7 @@ export const GlobalStyles = createGlobalStyle `
   }
 `;
 
-  
+
 
 // function check() {
 //     if () {
@@ -35,7 +35,7 @@ export const GlobalStyles = createGlobalStyle `
 // }
 
 export const lightTheme = {
-    body: window.location.href.toString() === "https://getheads-test.herokuapp.com/" || window.location.href.toString() === "https://getheads-test.herokuapp.com/createaccount" ? '#008FCC' : '#fff',
+    body: window.location.href.toString() === "http://localhost:3000/" || window.location.href.toString() === "http://localhost:3000/createaccount" ? '#008FCC' : '#fff',
     text: '#121212',
     primary: '#6200ee',
 };
